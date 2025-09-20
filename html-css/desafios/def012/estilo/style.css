@@ -76,11 +76,7 @@ section > p{
 .imagem{
     background-color: rgb(43, 42, 42);
     color: white;
-<<<<<<< HEAD
     box-shadow: inset 6px 6px 13px opx black;
-=======
-    box-shadow:inset 6px 6px 13px 0px black;
->>>>>>> cb285fed6d6a225bea72439f9d00dfd5752ad0dd
     background-size: cover;
     background-attachment: fixed;
 }
@@ -89,11 +85,7 @@ section > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.365);
-<<<<<<< HEAD
     text-shadow: 1px 1px opx black;
-=======
-    text-shadow: 1px 1px 0px black;
->>>>>>> cb285fed6d6a225bea72439f9d00dfd5752ad0dd
     
 
 }
