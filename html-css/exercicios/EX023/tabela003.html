@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .ex{
+            border: 2px solid red;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclando de Celuas Na Tabela</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2" class="ex">B</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="ex">D</td>
+            <td>E</td>
+            <td rowspan="2" class="ex">F</td>
+        </tr>
+        <tr>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="ex">M</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2" class="ex">B</td> <!--colspan é espanção de colunas-->
+            
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td> 
+            <td>C</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="ex" >D</td><!-- rowspan é = a espanção de linhas "3" é quantidade de linhas que vc quer colocar-->
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        
+    </table>
+        <br>
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td rowspan="2" class="ex">F</td><!-- rowspan é espanção de linhas "2" com 2 linhas de espanção-->
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table>
+           <br>
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            
+            <td colspan="2" class="ex">M</td> <!--colspan é = espanç~~ao de colunas "2" é quantidade de culunas a ser inserida-->
+        </tr>
+    </table>
+    
+</body>
+</html>
