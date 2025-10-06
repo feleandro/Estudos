@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charsetcharset="UTF-8";
 
 /* Versão Mobel First */
@@ -48,3 +49,45 @@ img#pc { display: none;}
 img#tv { display: none;}
 
  
+=======
+@charset "UTF-8";
+
+/* Declaração Gerais*/
+* {
+    margin: 0px;
+    padding: 0px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+        width: 100vw; /* largurada tela */
+    height: 100vh;/* altura tela */
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px opx #0a1564;
+    padding: 10px;
+}
+        /* Declaração Retrato*/
+   
+@media screen and ( orientation:portrait) {
+    body{
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: center bottom;
+    }
+}
+        
+    
+        /* Declaração Paisagem*/
+    
+@media screen and (orientation:landscape){
+    body{
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: left bottom;
+    }
+} 
+>>>>>>> 09c059a38730de7468f31db87ba3d7dcb4d4b4c2
